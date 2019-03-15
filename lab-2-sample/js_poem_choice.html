@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Starting Place</title>
+    <meta name="description" content="6313 GATech class example">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="favicon.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <img src="illustration-1.png" style="width: 600px">
+      </div>
+      <div id="pick" class="row">
+        <p>
+          I’m a westerner grown up in American, 100% westerner perspective, 100% westerner habits.
+          But I fell in love with a beautiful asian girl, and was invited to step into the mysterious eastern world by her. 
+          Here comes my first time in China celebrating the Spring Festival with my girlfriend’s whole family, wow they are inviting us in!
+        </p>
+        <p>
+          Girlfriend: “there are a lot of table manners in my family, I can help you quickly get started”
+        </p>
+        <button onclick="PickPoem(PoemA)">"Sure! Please help me."</button>
+        <button onclick="PickPoem(PoemB)">"Nah, I’m good, I want to see what happens myself."</button>
+      </div>
+      <div id="input" class="row">
+        <button id="bttn">Go On...</button>
+      </div>
+      <p id="target"></p>
+    </div>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js_poem_choice.js"></script>
+</html>
